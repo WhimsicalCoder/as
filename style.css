@@ -13,14 +13,14 @@ html, body {
 }
 
 body {
-  background: #f8fcfc;
+  background: #e0e0e0;
   font-family: sans-serif;
 }
 
 h1 {
   margin: 80px auto 30px auto;
   padding: 0 10%;
-  color: #0a0a0a;
+  color: #212121;
   font-weight: normal;
   line-height: 1.4em;
   letter-spacing: .1em;
@@ -35,12 +35,12 @@ h1 {
   max-width: 720px;
   margin: 50px auto;
   padding: 5%;
-  background: #f0f4f4;
+  background: #4d4d4d;
   border-radius: 3px;
 }
 
 .wrap {
-  background: #f8fafc;
+  background: #212121;
   padding: 20px 5% 26px 5%;
   border-radius: 3px;
 }
@@ -61,14 +61,14 @@ h1 {
   padding: 10px 14px;
   font-size: 1em;
   letter-spacing: .15em;
-  color: #100f0f;
+  color: #fd9d08;
 }
 
 .wrap label input {
   width: 90%;
   margin: 0 5%;
   padding: 10px 14px;
-  border: 2px solid #0d0d0d;
+  border: 2px solid #fd9d08;
   border-radius: 20px;
   outline: none;
   background: none;
