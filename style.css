@@ -1,0 +1,94 @@
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8fcfc;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 80px auto 30px auto;
+  padding: 0 10%;
+  color: #0a0a0a;
+  font-weight: normal;
+  line-height: 1.4em;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Odibee Sans', cursive;
+
+}
+
+.container {
+  width: 80%;
+  max-width: 720px;
+  margin: 50px auto;
+  padding: 5%;
+  background: #f0f4f4;
+  border-radius: 3px;
+}
+
+.wrap {
+  background: #f8fafc;
+  padding: 20px 5% 26px 5%;
+  border-radius: 3px;
+}
+
+.wrap:first-child {
+  margin-bottom: 30px;
+}
+
+.wrap label {
+  display: inline-block;
+  width: 50%;
+}
+
+.wrap label span {
+  display: block;
+  width: 90%;
+  margin: 0 5%;
+  padding: 10px 14px;
+  font-size: 1em;
+  letter-spacing: .15em;
+  color: #100f0f;
+}
+
+.wrap label input {
+  width: 90%;
+  margin: 0 5%;
+  padding: 10px 14px;
+  border: 2px solid #0d0d0d;
+  border-radius: 20px;
+  outline: none;
+  background: none;
+  color: #FFFFFF;
+  letter-spacing: .07em;
+}
+
+.wrap label input[type=number]::-webkit-inner-spin-button,
+.wrap label input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 520px){
+  .container {
+    padding: 45px 5%;
+  }
+
+  .wrap label {
+    display: block;
+    width: 100%;
+  }
+}
